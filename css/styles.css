@@ -1,16 +1,30 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
 }
 .boton-jugada {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
+  background: linear-gradient(135deg, #6c6c6e, #3b2d4d); 
+  color: white; 
+  border: none; 
+  padding: 12px 24px; 
+  font-size: 16px; 
+  border-radius: 50px; 
   cursor: pointer;
 }
+.boton-jugada:hover {
+  background: linear-gradient(135deg, #51396e, #233e97);
+  transform: translateY(-2px); 
+}
 #resultados {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+  color: #51396e;
+}
+#contador-usuario, #contador-ordenador {
   font-size: 20px;
   margin: 20px 0;
+  text-align: center;
+  color: #51396e;
 }
